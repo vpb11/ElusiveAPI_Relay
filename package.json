@@ -1,0 +1,21 @@
+{
+  "name": "groq_node.js_backend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jack Ramsay <jackramsay770@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "pino": "^9.2.0",
+    "pino-http": "^10.1.0",
+    "pino-pretty": "^11.2.1"
+  }
+}
