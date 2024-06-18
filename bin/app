@@ -6,7 +6,7 @@ const PORT = 8000;
 
 app.get('/proxy1', async (req, res) => {
   try {
-    const targetApiUrl = 'https://elusiveproxy.com/proxy-rotate/46/1/683ccf21f54fcacbaa74e289dd40c3ce';
+    const targetApiUrl = 'https://elusiveproxy.com/proxy-rotate/46/84/4e1a45111306a6f3c75d265db521af8c';
 
     const params = req.query;
     const response = await axios.get(targetApiUrl, { params });
